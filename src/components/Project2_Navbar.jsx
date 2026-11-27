@@ -11,7 +11,7 @@ const Navbar = () => {
     }, [])
     return (
         <nav className='bg-gray-100 px-6 py-4 shadow-md'>
-            <div className='max-w-7xl mx-auto flex justify-between items-center border'>
+            <div className='max-w-7xl mx-auto flex justify-between items-center '>
                 {/* Desktop Menu */}
                 <div className='text-2xl font-bold text-emerald-500'>Brand</div>
 
