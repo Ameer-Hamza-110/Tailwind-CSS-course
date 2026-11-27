@@ -1,11 +1,18 @@
 import React from 'react'
-import Project1 from './components/Project1'
+import { Route, Routes } from 'react-router-dom'
+import Basics from './components/Basics'
+import Project1 from './components/Project1_Pricing_Card'
+import Navbar from './components/Project2_Navbar'
 
 const App = () => {
   return (
-    <main className='min-h-screen flex  justify-center items-center bg-gray-100'>
-      <Project1 />
-    </main>
+    <>
+      <Navbar />
+      <Routes>
+        <Route element={<Basics />} path='/basics' />
+        <Route element={<Project1 />} path='/project1' />
+      </Routes>
+    </>
   )
 }
 
