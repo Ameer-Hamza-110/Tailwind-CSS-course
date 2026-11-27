@@ -18,7 +18,6 @@ const Navbar = () => {
 
                 <ul className='hidden md:flex gap-6 text-gray-600 font-bold'>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/basics'>Basics</Link></li>
                     <li><Link to='/project1'>Project1</Link></li>
                     <li><Link to='/project2'>Project2</Link></li>
                     <li><Link to='/project3'>Project3</Link></li>
@@ -28,9 +27,8 @@ const Navbar = () => {
                 <Menu className='text-emerald-500 cursor-pointer md:hidden' onClick={() => setIsOpen(!isOpen)} />
             </div>
 
-            <ul className={`${isOpen ? "flex" : "hidden"} md:hidden flex-col gap-6 justify-around text-blue-500 font-medium`}>
+            <ul className={`${isOpen ? "flex" : "hidden"} mt-5 md:hidden flex-col gap-6 justify-around text-blue-500 font-medium`}>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/basics'>Basics</Link></li>
                 <li><Link to='/project1'>Project1</Link></li>
                 <li><Link to='/project2'>Project2</Link></li>
                 <li><Link to='/project3'>Project3</Link></li>

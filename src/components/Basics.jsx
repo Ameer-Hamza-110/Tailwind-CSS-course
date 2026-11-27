@@ -12,7 +12,7 @@ const Basics = () => {
             <p className='bg-blue-500 text-yellow-300 p-4 m-4 tracking-tighter'>Lorem ipsum dolor sit amet.</p>
 
 
-            <p className='bg-white text-violet-800 p-4 m-4 leading-loose rounded shadow-2xl border-2 border-blue-800'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quas sint rerum et, consectetur non dicta quia est! Atque tempora ut vitae beatae tempore quaerat aut dolorem at fugit reprehenderit?</p>
+            <p className='bg-white text-violet-800 p-4 m-4 leading-loose rounded shadow-2xl border-2 '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quas sint rerum et, consectetur non dicta quia est! Atque tempora ut vitae beatae tempore quaerat aut dolorem at fugit reprehenderit?</p>
 
 
             <p className='bg-white text-purple-800 p-4 m-4 leading-loose rounded shadow-2xl border-2 border-red-800 text-center uppercase font-bold font-mono'>Lorem, ipsum dolor.</p>
