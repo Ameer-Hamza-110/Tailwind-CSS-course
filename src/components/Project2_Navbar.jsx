@@ -22,6 +22,7 @@ const Navbar = () => {
                     <li><Link to='/project2'>Project2</Link></li>
                     <li><Link to='/project3'>Project3</Link></li>
                     <li><Link to='/project4'>Project4</Link></li>
+                    <li><Link to='/project5'>Project5</Link></li>
                 </ul>
 
                 <Menu className='text-emerald-500 cursor-pointer md:hidden' onClick={() => setIsOpen(!isOpen)} />
@@ -33,6 +34,7 @@ const Navbar = () => {
                 <li><Link to='/project2'>Project2</Link></li>
                 <li><Link to='/project3'>Project3</Link></li>
                 <li><Link to='/project4'>Project4</Link></li>
+                <li><Link to='/project5'>Project5</Link></li>
             </ul>
 
 
