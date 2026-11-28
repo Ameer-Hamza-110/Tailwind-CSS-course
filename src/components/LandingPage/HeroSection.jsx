@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <section className='bg-gray-900 container mx-auto py-12 px-6 flex flex-col md:flex-row items-center justify-center gap-8'>
+    <section className='bg-gray-900 container mx-auto py-12 px-6 flex flex-col-reverse   md:flex-row items-center justify-center gap-8'>
 
       <div className='md:w-1/2 space-y-4 text-center md:text-left'>
         <h2 className='text-white font-bold text-4xl'>Build your SaaS website faster</h2>
